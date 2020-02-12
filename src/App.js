@@ -21,7 +21,8 @@ class App extends Component {
         completed: false
       }
     ]
-  }
+  } 
+  // gthhh
 
   render() {
     console.log(this.state.todos)
