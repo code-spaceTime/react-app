@@ -37,6 +37,7 @@ class App extends Component {
   delTodo = (id) => {
     console.log(id)
   }
+  
 
   render() {
   return (
