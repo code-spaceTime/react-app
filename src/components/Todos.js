@@ -3,8 +3,8 @@ import TodoItem from './TodoItem';
 
 class Todos extends Component {
     render(){
-      return this.props.todos.map((todo) => (
-      <TodoItem key={todo.id} todo = {todo}/>
+      return this.props.todos.map((todos) => (
+      <TodoItem key={todos.id} todoList= {todos} markComplete={this.props.markComplete} delTodo={this.props.delTodo}/>
      ));
     }
 }
