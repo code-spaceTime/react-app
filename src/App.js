@@ -35,7 +35,7 @@ class App extends Component {
     })})
   }
 
-  //Delete todo
+  
   delTodo = (id) => {
     this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)]})
   }
