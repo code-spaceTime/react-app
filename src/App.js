@@ -13,7 +13,6 @@ class App extends Component {
         title: 'Take out the trash',
         completed: false
       },
-      
       {
         id: uuidv4(),
         title: 'Dinner with wife',
